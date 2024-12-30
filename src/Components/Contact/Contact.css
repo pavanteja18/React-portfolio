@@ -1,0 +1,155 @@
+#contact {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85vh;
+  gap: 4rem;
+  align-items: center;
+  align-content: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  width: 90%;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-links > a {
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+  align-content: center;
+}
+
+.social-links > a > h3 {
+  font-family: "Rubik Mono One", sans-serif;
+  justify-content: end;
+}
+
+.social-links > a > img {
+  width: 70px;
+  height: 70px;
+}
+
+.contact-form {
+  width: 450px;
+}
+
+.contact-form > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+label {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 1rem;
+}
+
+.input-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.input {
+  background-color: rgba(36, 35, 35, 0.315);
+  padding: 0.75rem;
+  border-radius: 5px;
+  max-width: 450px;
+}
+
+.submit-btn {
+  background-color: white;
+  color: black;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .vertical-wrapper > h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-links {
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid rgba(48, 47, 47, 0.884);
+    border-radius: 5px;
+  }
+
+  .social-links > a > img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-links > a > h3 {
+    font-family: "Rubik Mono One", sans-serif;
+    justify-content: end;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .vertical-wrapper > h1 {
+    font-size: 1rem;
+  }
+
+  .vertical-wrapper > p {
+    font-size: 0.7rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-links {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5rem;
+    border: 1px solid rgba(48, 47, 47, 0.884);
+    border-radius: 5px;
+  }
+
+  .social-links > a > img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  .social-links > a > h3 {
+    font-family: "Rubik Mono One", sans-serif;
+    justify-content: end;
+    font-size: 0.5rem;
+  }
+}

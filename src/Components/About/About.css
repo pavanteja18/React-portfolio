@@ -1,0 +1,77 @@
+#about_me {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85vh;
+  gap: 4rem;
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 2.75rem;
+}
+
+.card-container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 20px;
+  /* box-shadow: rgba(0, 255, 0, 0.24) 1px 1px 50px; */
+  border: 1px solid rgba(0, 255, 0, 0.041);
+}
+
+.card:hover {
+  background-color: rgba(36, 35, 35, 0.315);
+  cursor: inherit;
+  box-shadow: rgba(0, 255, 0, 0.24) 1px 1px 50px;
+}
+
+.card h3 {
+  font-size: 0.9rem;
+  font-family: "Rubik Mono One", sans-serif;
+  color: rgba(196, 193, 193, 0.493);
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+.card > h1 {
+  font-size: 1.75rem;
+  color: white;
+  flex-direction: column;
+}
+
+.card > p {
+  font-size: 1.1rem;
+  font-family: "Courier New", monospace;
+  color: lime;
+  max-width: 70%;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    border: 1px solid rgba(0, 255, 0, 0.37);
+  }
+
+  .card > p {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+
+  .card > h1 {
+    font-size: 1.25rem;
+  }
+}
