@@ -109,7 +109,8 @@
 @media (max-width: 425px) {
   #projects {
     gap: 1rem;
-    margin-top: 10rem;
+    margin-top: 1rem; /* Adjusted margin-top */
+    margin-bottom: 1rem; /* Added margin-bottom */
   }
   .pcard > img {
     width: 120px;

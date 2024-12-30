@@ -78,7 +78,8 @@ p > span {
 
 @media (max-width: 425px) {
   #skills {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     gap: 1rem;
   }
 

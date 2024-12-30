@@ -4,6 +4,7 @@ import pfp from "/images/profile-pic.png";
 import Typewriter from "typewriter-effect";
 import linkedin from "/images/linkedin.svg";
 import github from "/images/github.png";
+import Resume from "/images/Resume.pdf";
 import { motion } from "motion/react";
 import { fadeIn } from "../../variants";
 
@@ -49,10 +50,10 @@ const Hero = () => {
             </div>
             <div className="btn-container">
               <button className="btn01">
-                <a>Download CV</a>
+                <a href={Resume}>Download CV</a>
               </button>
               <button className="btn02">
-                <a>Contact</a>
+                <a href="#contact">Contact</a>
               </button>
             </div>
             <div className="social-container">

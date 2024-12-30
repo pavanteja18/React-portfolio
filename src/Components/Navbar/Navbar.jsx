@@ -14,10 +14,10 @@ const Navbar = () => {
             <a href="#root">/root</a>
           </li>
           <li>
-            <a href="#about">/about_me</a>
+            <a href="#about_me">/about_me</a>
           </li>
           <li>
-            <a href="#logs">/logs</a>
+            <a href="#projects">/logs</a>
           </li>
           <li>
             <a href="#contact">/contact</a>
