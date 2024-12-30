@@ -28,3 +28,9 @@ section {
   width: 80%;
   margin: 1rem auto !important;
 }
+
+@media (max-width: 425px) {
+  section {
+    margin: 3rem auto !important;
+  }
+}
