@@ -78,12 +78,15 @@ p > span {
 
 @media (max-width: 425px) {
   #skills {
-    margin-top: 2rem; /* Added margin-top to prevent overlap */
+    margin-top: 2rem;
+    gap: 1rem;
   }
 
   .scard {
     padding: 5px;
     gap: 0.5rem;
+    flex: auto;
+    margin: 1px;
   }
   .scard > img {
     width: 30px;
@@ -92,6 +95,11 @@ p > span {
   .s-info > h2 {
     font-size: 0.75rem;
   }
+
+  .Skills-card {
+    gap: 0.5rem;
+  }
+
   .s-info > p {
     font-size: 0.65rem;
     letter-spacing: 0.05cm;

@@ -16,7 +16,7 @@ const Contact = () => {
           className="vertical-wrapper"
         >
           <p>Get in Touch!</p>
-          <h1>Contact me for Collaboration</h1>
+          <h1>Contact Me</h1>
         </motion.div>
         <div className="contact-container">
           <motion.div

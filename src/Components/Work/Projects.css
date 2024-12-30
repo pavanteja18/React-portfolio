@@ -107,25 +107,30 @@
 }
 
 @media (max-width: 425px) {
+  #projects {
+    gap: 1rem;
+    margin-top: 10rem;
+  }
   .pcard > img {
-    width: 125px;
+    width: 120px;
     height: auto;
   }
 
   .projects-card {
     padding: 5px;
     height: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
   }
 
   .p-info > h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .p-info > p {
     font-family: "Poppins";
     font-size: 0.75rem;
-    width: 70%;
+    width: 90%;
     color: rgba(196, 193, 193, 0.418);
   }
   .link {
@@ -134,5 +139,10 @@
     padding: 10px;
     background-color: rgb(17, 17, 19);
     border-radius: 30px;
+  }
+
+  .pcard {
+    flex-direction: row;
+    width: 100%;
   }
 }
