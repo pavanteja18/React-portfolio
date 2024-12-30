@@ -4,7 +4,7 @@ import pfp from "/images/profile-pic.png";
 import Typewriter from "typewriter-effect";
 import linkedin from "/images/linkedin.svg";
 import github from "/images/github.png";
-import Resume from "/images/Resume.pdf";
+import Resume from "/Resume.pdf";
 import { motion } from "motion/react";
 import { fadeIn } from "../../variants";
 
