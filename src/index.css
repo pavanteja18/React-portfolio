@@ -34,3 +34,10 @@ section {
     margin: 13rem auto !important;
   }
 }
+
+@media (max-width: 1024px) {
+  section {
+    margin: 13rem auto !important;
+    height: 100vh;
+  }
+}
