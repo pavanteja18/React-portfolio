@@ -124,7 +124,7 @@ button {
   height: 3rem;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .root-container {
     flex-direction: column;
     justify-content: center;
@@ -157,7 +157,7 @@ button {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .root-container {
     flex-direction: column;
     justify-content: center;
@@ -190,7 +190,7 @@ button {
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .root-container {
     flex-direction: column;
     justify-content: center;
@@ -248,7 +248,7 @@ button {
   }
 }
 
-@media (min-width: 320px) {
+@media screen and (min-width: 320px) {
   .social-container {
     margin-top: 2rem;
   }

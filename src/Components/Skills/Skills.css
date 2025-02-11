@@ -76,7 +76,7 @@ p > span {
   color: rgba(0, 255, 0, 0.658);
 }
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
   #skills {
     margin-top: 25rem !important;
     margin-bottom: 1rem;
@@ -105,5 +105,30 @@ p > span {
     font-size: 0.65rem;
     letter-spacing: 0.05cm;
     max-width: fit-content;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  #skills {
+    height: auto;
+    gap: 1.5rem;
+  }
+
+  .vertical-wrapper {
+    text-align: center;
+  }
+
+  .scard > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .Skills-card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .scard {
+    height: fit-content;
   }
 }

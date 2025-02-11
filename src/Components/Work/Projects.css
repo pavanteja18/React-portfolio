@@ -109,8 +109,9 @@
 @media (max-width: 425px) {
   #projects {
     gap: 1rem;
-    margin-top: 1rem; /* Adjusted margin-top */
-    margin-bottom: 1rem; /* Added margin-bottom */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
   }
   .pcard > img {
     width: 120px;
@@ -130,8 +131,9 @@
 
   .p-info > p {
     font-family: "Poppins";
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     width: 90%;
+    font-weight: bold;
     color: rgba(196, 193, 193, 0.418);
   }
   .link {
@@ -145,5 +147,20 @@
   .pcard {
     flex-direction: row;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #projects {
+    height: auto;
+  }
+
+  .p-info {
+    width: fit-content;
+  }
+
+  .p-info > p {
+    font-size: 0.85rem;
+    font-weight: bold;
   }
 }

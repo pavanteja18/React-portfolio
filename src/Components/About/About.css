@@ -57,13 +57,28 @@ h1 {
   flex-direction: column;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  #about_me {
+    height: fit-content;
+    gap: 0.5rem;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
   h1 {
     font-size: 2rem;
   }
 
+  .card-container {
+    gap: 0.8rem;
+  }
+
   .card {
     border: 1px solid rgba(0, 255, 0, 0.37);
+    width: inherit;
+    height: fit-content;
   }
 
   .card > p {
