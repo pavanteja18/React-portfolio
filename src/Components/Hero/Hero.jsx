@@ -7,11 +7,13 @@ import github from "/images/github.png";
 import Resume from "/Resume.pdf";
 import { motion } from "motion/react";
 import { fadeIn } from "../../variants";
+import Snowfall from "react-snowfall";
 
 const Hero = () => {
   return (
     <>
       <section id="root">
+        <Snowfall color="#fff" />
         <div className="root-container">
           <motion.img
             variants={fadeIn("left", 0.05)}

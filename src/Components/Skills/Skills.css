@@ -116,6 +116,33 @@ p > span {
 
   .vertical-wrapper {
     text-align: center;
+    margin-top: 100px;
+  }
+
+  .scard > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .Skills-card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .scard {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #skills {
+    height: auto;
+    gap: 1.5rem;
+  }
+
+  .vertical-wrapper {
+    text-align: center;
+    margin-top: 100px;
   }
 
   .scard > img {

@@ -33,7 +33,7 @@ const Projects = () => {
               <h2>Bhagavad Gita</h2>
               <p>E-Gita Website using Gita API.</p>
               <button>
-                <a href="https://github.com/pavanteja18/bhagavad-gita">
+                <a href="https://e-gita.onrender.com/">
                   <img src={link} className="link" />
                 </a>
               </button>
@@ -66,10 +66,10 @@ const Projects = () => {
           >
             <img src={project3} />
             <div className="p-info">
-              <h2>Grammify</h2>
-              <p>Grammar Corrector.</p>
+              <h2>Grammiffy</h2>
+              <p>A React based - Grammar Corrector.</p>
               <button>
-                <a href="https://github.com/pavanteja18/Grammify">
+                <a href="https://grammiffy.netlify.app/">
                   <img src={link} className="link" />
                 </a>
               </button>

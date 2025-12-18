@@ -4,10 +4,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 85vh;
+  height: auto;
   gap: 4rem;
   align-items: center;
   align-content: center;
+}
+
+.vertical-wrapper {
+  padding: 30px;
+  margin-top: 50px;
 }
 
 .projects-card {
@@ -82,6 +87,9 @@
 }
 
 @media (max-width: 1024px) {
+  #projects {
+    margin-top: 150px;
+  }
   .pcard > img {
     width: 180px;
     height: auto;
